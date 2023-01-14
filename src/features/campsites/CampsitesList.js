@@ -1,5 +1,6 @@
 import { selectAllCampsites } from './campsitesSlice';
 import { Col, Row } from 'reactstrap';
+import CampsiteCard from './CampsiteCard';
 
 const CampsitesList = () => {
     const campsites = selectAllCampsites();
@@ -15,3 +16,5 @@ const CampsitesList = () => {
         </Row>
     );
 };
+
+export default CampsitesList;
