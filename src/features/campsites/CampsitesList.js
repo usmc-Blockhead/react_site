@@ -8,12 +8,12 @@ const CampsitesList = ({ setCampsiteId }) => {
         <Row className="ms-auto"> 
             {campsites.map((campsite) => {
                 return (
-                    <Col
+                    <Col>
                         md='5'
                         className='m-4'
                         key={campsite.id}
                         onClick={() => setCampsiteId(campsite.id)}
-                    >
+                    </Col>
                 );
             })}
         </Row>
