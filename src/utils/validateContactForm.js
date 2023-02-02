@@ -28,5 +28,3 @@ const validateContactForm = (values) => {
 
     return errors;
 };
-
-export default validateContactForm;
