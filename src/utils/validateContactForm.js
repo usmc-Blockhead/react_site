@@ -1,4 +1,4 @@
-const validateContactForm = (values) => {
+export const validateContactForm = (values) => {
     const errors = {};
 
     if (!values.firstName) {
